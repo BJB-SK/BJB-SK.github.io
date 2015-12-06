@@ -302,8 +302,9 @@ body {
   -webkit-tap-highlight-color: #222; }
 
 #mainNav .social {
-  font-size: 2.5em;
-  margin: 5px 0 0 20px; }
+  font-size: 2.1em;
+  margin: 8px 0 0 20px;
+  text-decoration: none; }
   #mainNav .social:hover {
     text-decoration: none; }
 
@@ -328,3 +329,6 @@ p {
 #contact .email
 p {
   font-size: 1em; }
+
+.portfolio-box .portfolio-box-caption {
+  background: rgba(51, 122, 183, 0.4); }
