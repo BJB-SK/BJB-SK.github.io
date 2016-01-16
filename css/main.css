@@ -301,6 +301,9 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #222; }
 
+.text-small {
+  font-size: 0.9em; }
+
 /**
  * Navigation.
  */
@@ -383,6 +386,15 @@ body {
 
 .portfolio-box:hover .portfolio-box-caption-permanent {
   opacity: 0 !important; }
+
+#program .text-small {
+  font-size: 1em !important; }
+#program .text-with-image {
+  margin-top: 35px; }
+#program .pic-left {
+  text-align: left; }
+#program .pic-right {
+  text-align: right; }
 
 #hero-banner {
   background-image: url("../img/hero-banner.jpg");
