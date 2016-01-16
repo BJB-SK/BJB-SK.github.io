@@ -393,8 +393,12 @@ body {
   margin-top: 35px; }
 #program .pic-left {
   text-align: left; }
+  #program .pic-left img {
+    float: left; }
 #program .pic-right {
   text-align: right; }
+  #program .pic-right img {
+    float: right; }
 
 #hero-banner {
   background-image: url("../img/hero-banner.jpg");
