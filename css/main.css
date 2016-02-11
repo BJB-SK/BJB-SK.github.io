@@ -462,10 +462,20 @@ body {
   @media screen and (min-width: 800px) {
     #schedule {
       padding: 100px 0; } }
-  #schedule #schedule-top,
+  #schedule #schedule-static,
   #schedule #schedule-days {
     background-color: #f0f0f0;
     margin-bottom: 15px; }
+  #schedule .slot {
+    padding: 0.2em 0; }
+  #schedule .odd {
+    background-color: #e0e0e0; }
+  #schedule .even {
+    background-color: #f0f0f0; }
+  #schedule #schedule-static .day {
+    background-color: #e0e0e0;
+    display: inline-block;
+    width: 100%; }
 
 .section {
   background-color: #f0f0f0;
