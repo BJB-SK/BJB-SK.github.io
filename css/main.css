@@ -288,12 +288,15 @@ header {
     max-width: 1000px;
     margin: 0 auto; }
     header .header-content .header-content-inner {
-      height: 155px;
+      height: 140px;
       width: 100%;
       background-image: url(../img/header.png);
       background-position: center;
       margin: 60px auto 0;
       background-size: cover; }
+      @media (min-width: 450px) {
+        header .header-content .header-content-inner {
+          height: 170px; } }
       @media (min-width: 628px) {
         header .header-content .header-content-inner {
           height: 227px; } }
