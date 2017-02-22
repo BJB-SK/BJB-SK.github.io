@@ -90,8 +90,8 @@
 
   <header>
     <div class="header-content">
-        <div class="header-content-inner">
-        </div>
+        <!-- <div class="header-content-inner"> -->
+        <!-- </div> -->
     </div>
 </header>
 
@@ -101,10 +101,18 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <!-- <h2 class="section-heading">MK 2017</h2> -->
                 <!-- <hr class="light"> -->
-                <!-- <div class="video-container">
-                    <iframe width="800" src="https://www.youtube.com/embed/PJNxW4SizTI" frameborder="0" allowfullscreen></iframe>
-                </div> -->
-                <!-- <br /><br /><br /> -->
+                <div class="video-container">
+                    <!-- <iframe width="800" src="https://www.youtube.com/embed/PJNxW4SizTI" frameborder="0" allowfullscreen></iframe> -->
+                    <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" width="800" height="450"
+                    poster="http://89.185.237.127/MK2017-720.png" data-setup='{}'>
+                      <source src="http://89.185.237.127/hls/main.m3u8" type="application/x-mpegURL">
+                      <p class="vjs-no-js">
+                        Pre sledovanie tohto videa si zapnite Javascript alebo použite prehliadač
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">podporujúci HTML5 video</a>.
+                      </p>
+                    </video>
+                </div>
+                <br /><br /><br />
                 <p class="text-faded">Dnes je ten deň.
                 <br /><br />
                 Srdce mi bije, ako by som práve zabehla sto metrov. Napriek tomu stojím bez pohnutia.
@@ -480,6 +488,11 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="js/creative.js"></script>
+
+<link href="http://cdnjs.cloudflare.com/ajax/libs/video.js/5.17.0/video-js.min.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/video.js/5.17.0/ie8/videojs-ie8.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/video.js/5.17.0/video.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.3.0/videojs-contrib-hls.min.js"></script>
 
 <!-- <script src="js/schedule.js"></script> -->
 
