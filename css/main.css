@@ -381,7 +381,10 @@ header {
 #program .text-small {
   font-size: 1em !important; }
 #program .text-with-image {
-  margin-top: 35px; }
+  margin-top: 20px;
+  padding: 15px 5px; }
+  #program .text-with-image.odd {
+    background-color: #EEEEEE; }
 #program .pic-left {
   text-align: left; }
   #program .pic-left img {
