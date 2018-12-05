@@ -261,6 +261,9 @@ img.in-button {
 .a-bit-bigger {
   font-size: 18px; }
 
+.btn-alternative {
+  background-color: #fed300; }
+
 /**
  * Navigation.
  */
@@ -413,6 +416,8 @@ section#about {
 
 .portfolio-box:hover .portfolio-box-caption-permanent {
   opacity: 0 !important; }
+.portfolio-box .portfolio-box-caption {
+  background-color: rgba(254, 211, 0, 0.7); }
 
 #program .seminar-title {
   text-transform: uppercase;
