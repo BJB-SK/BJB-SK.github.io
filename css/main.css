@@ -270,7 +270,11 @@ img.in-button {
 .navbar-default {
   background: white; }
   .navbar-default .navbar-nav a.page-scroll {
-    color: #393939; }
+    color: #393939;
+    padding: 15px 10px; }
+    @media (min-width: 992px) {
+      .navbar-default .navbar-nav a.page-scroll {
+        padding: 15px; } }
     .navbar-default .navbar-nav a.page-scroll:hover {
       color: rgba(119, 213, 203, 0.4); }
 
@@ -347,7 +351,8 @@ section#about {
   padding-bottom: 0;
   background-image: url(../img/arrows.png);
   background-position: calc(50% - 78px) bottom;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-top: 55px; }
   @media (min-width: 778px) {
     section#about {
       min-height: 580px;
@@ -363,12 +368,12 @@ section#about {
     @media (min-width: 778px) {
       section#about #logo {
         float: right;
-        margin-top: 240px;
+        margin-top: 280px;
         max-height: 200px; } }
     @media (min-width: 992px) {
       section#about #logo {
         float: right;
-        margin-top: 100px;
+        margin-top: 145px;
         max-height: none; } }
 
 /**
