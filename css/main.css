@@ -8,7 +8,7 @@ hr.light { border-color: white; }
 
 a { -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; color: #EB3426; }
 
-a:hover, a:focus { color: #c64619; }
+a:hover, a:focus { color: #e45b51; }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
@@ -30,7 +30,7 @@ aside { padding: 50px 0; }
 
 .navbar-default .navbar-header .navbar-brand { color: #EB3426; font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; text-transform: uppercase; }
 
-.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus { color: #c64619; }
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus { color: #e0857e; }
 
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus { text-transform: uppercase; font-weight: 700; font-size: 13px; color: #393939; }
 
@@ -94,7 +94,7 @@ aside { padding: 50px 0; }
 
 .btn-primary { color: white; background-color: #EB3426; border-color: #EB3426; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary { color: white; background-color: #dd4e1b; border-color: #d44b1a; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary { color: white; background-color: #e45b51; border-color: #e45b51; }
 
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary { background-image: none; }
 
